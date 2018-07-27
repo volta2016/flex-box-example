@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex-box example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <h2>flex-direction: row;</h2>
+	<section class="padre">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+<h2>flex-direction: row-reverse; (se apilan de derecha a izquierda)</h2>
+	<section class="padre2">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+<h2>flex-direction: column; (Verticalmente: los flex se apilan en una columna de arriba abajo)</h2>
+	<section class="padre3">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+<h2>flex-direction: column-reverse; (los flex se apilan en una columna de abajo hacia arriba)</h2>
+	<section class="padre4">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+	<h2><em>flex-wrap</em> flex-wrap: nowrap; (los flex se encuentran en una fila se escojen segun su contenedor)</h2>
+	<section class="padre5">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		
+	</section>
+
+	<h2>flex-wrap: wrap;(Los elementos - flex se muestran en varias filas (si es necesario), de izquierda a derecha y de arriba abajo.)</h2>
+	<section class="padre6">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		
+	</section>
+
+	<h2>flex-wrap: wrap-reverse;(Los elementos - los flex se muestran en varias filas (si es necesario), de izquierda a derecha y de abajo hacia arriba.)</h2>
+	<section class="padre7">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		
+	</section>
+
+	<h2><em>flex-flow - Valor por defecto: row nowrap</em> - Esta propiedad es una forma rápida para establecer las propiedades flex-direction y flex-wrap.
+		<em>flex-flow: column-reverse wrap;</em></h2>
+	<section class="padre8">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+	</section>
+
+	<h2><em>justify-content La propiedad justify-content alinea los elementos - flex a lo largo del eje principal de la línea actual (contenedor - flex)</em>
+	justify-content: flex-start; (Los elementos - flex están alineados con el lado izquierdo del contenedor - flex).</h2>
+
+	<section class="padre9">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+	<h2><em>justify-content</em>
+	 justify-content: flex-end; (Los elementos - flex están alineados con el lado derecho del contenedor - flex).</h2>
+
+	<section class="padre10">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+	<h2><em>justify-content</em>
+	  justify-content: center; (Los elementos - flex están alineados con el lado derecho del contenedor - flex).</h2>
+
+	<section class="padre11">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+    <h2><em>justify-content</em>
+	  justify-content: space-between; (Los elementos - flex tienen la misma distancia entre ellos, pero el primero y el último elemento - flex están alineados con los bordes del contenedor - flex).</h2>
+
+	<section class="padre12">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+   <h2><em>justify-content</em>
+	  justify-content: space-around; (Los elementos - flex tienen la misma distancia entre ellos, incluso el primero y el último elemento - flex.).</h2>
+
+	<section class="padre13">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+	<h2><em>align-items - Valor por defecto: stretch - La propiedad align-items es muy similar a la propiedad justify-content, pero este es en la dirección del eje secundario.</em>
+	<br>
+	align-items: stretch; (Los elementos - flex ocupan toda la altura (o anchura) de inicio secundario a fin secundario.).</h2>
+
+	<section class="padre14">
+
+		<div class="hijo2">1</div>
+		<div class="hijo2">2</div>
+		<div class="hijo2">3</div>
+		<div class="hijo2">4</div>
+		
+	</section>
+
+	<h2><em>align-items</em>
+	  align-items: flex-start; (Los elementos - flex se apilan al inicio secundario del contenido - flex.).</h2>
+
+	<section class="padre15">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+	<h2><em>align-items</em>
+	  align-items: flex-end; (Los elementos - flex se apilan al fin secundario del contenido - flex).</h2>
+
+	<section class="padre16">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+
+	<h2><em>align-items</em>
+	  align-items: center; (Los elementos - flex se apilan al centro del eje secundario).</h2>
+
+	<section class="padre17">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		
+	</section>
+
+	<h2><em>align-items</em>
+	  align-items: baseline; (Los elementos - flex se alinean de manera que sus líneas base quedan iguales).</h2>
+
+	<section class="padre18">
+
+		<div class="hijo">1</div>
+		<div class="hijo3">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo3">4</div>
+		
+	</section>
+
+
+	<h2><em>align-content - La propiedad align-content alinea las líneas de un contenedor - flex cuando los elementos no utilizan todo el espacio disponible en el eje secundario.</em>
+	<br>
+	 align-content: stretch; (Los elementos - flex se muestran con espacio distribuido después de cada fila de elementos - flex.).</h2>
+
+	<section class="padre19">
+
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		<div class="hijo">8</div>
+		<div class="hijo">9</div>
+		<div class="hijo">10</div>
+
+		
+	</section>
+
+   <h2><em>align-content</em>
+	  align-content: flex-start; (Los elementos - flex se apilan hacia el inicio secundario del contenedor - flex).</h2>
+
+	<section class="padre20">
+
+		
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		<div class="hijo">8</div>
+		<div class="hijo">9</div>
+		<div class="hijo">10</div>
+
+	</section>
+
+	<h2><em>align-content</em>
+	  align-content: flex-end; (Los elementos - flex se apilan hacia el fin secundario del contenedor - flex).</h2>
+
+	<section class="padre21">
+
+		
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		<div class="hijo">8</div>
+		<div class="hijo">9</div>
+		<div class="hijo">10</div>
+
+	</section>
+
+
+		<h2><em>align-content</em>
+	  align-content: center; (Las filas se apilan en el centro del eje secundario).</h2>
+
+	<section class="padre22">
+
+		
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		<div class="hijo">8</div>
+		<div class="hijo">9</div>
+		<div class="hijo">10</div>
+
+	</section>
+
+
+	<h2><em>align-content</em>
+	  align-content: space-between; (Las filas de los elementos - flex tienen la misma separación entre ellos, pero la primera y última fila están alineadas con los bordes del contenedor - flex).</h2>
+
+	<section class="padre23">
+
+		
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		<div class="hijo">8</div>
+		<div class="hijo">9</div>
+		<div class="hijo">10</div>
+
+	</section>
+
+
+	<h2><em>align-content</em>
+	   align-content: space-around; (Los elementos - flex tienen la misma separación en cada fila de elementos - flex.).</h2>
+
+	<section class="padre24">
+
+		
+		<div class="hijo">1</div>
+		<div class="hijo">2</div>
+		<div class="hijo">3</div>
+		<div class="hijo">4</div>
+		<div class="hijo">5</div>
+		<div class="hijo">6</div>
+		<div class="hijo">7</div>
+		<div class="hijo">8</div>
+		<div class="hijo">9</div>
+		<div class="hijo">10</div>
+
+	</section>
+
+
+	<h2><em>Propiedades de los elementos - flex (Hijos)</em>
+	   (Al igual que el contenedor - flex, los elementos - flex tienen propiedades interesantes, con las cuales podremos hacer cosas aun más increíbles).</h2>
+	   <br>
+	   <h2><em>order: - hijo -  Con esta propiedad controlamos el orden de los elementos - flex que están dentro del contenedor - flex</em>
+	    order: <integer>; (Los elementos - flex pueden ser reordenados con esta simple propiedad sin la necesidad de reestructurar el código HTML..)).</h2>
+
+	<section class="padre25">
+
+		
+		<div class="hijoelemento">1</div>
+		<div class="hijoelemento">2</div>
+		<div class="hijoelemento">3</div>
+		<div class="hijoelemento">4</div>
+		<div class="hijoelemento">5</div>
+		
+
+	</section>
+
+
+	   <h2><em>flex-grow - Valor por defecto: 0 - Esta propiedad especifica el factor que determina hasta que punto un elemento - flex crecerá en relación con el resto de los elementos - flex. - Si los elementos - flex tienen el mismo valor para flex-grow, todos van a tener el mismo tamaño, según el contenedor - flex. - Al definir que en el segundo elemento - flex la propiedad flex-grow va a tener un valor de dos, este va a tomar un ancho que equivale a la suma de dos elementos. - Nota: Los números negativos igual aplican para esta propiedad.</em>
+	    flex-grow: <number>; (resumen arriba).</h2>
+
+	<section class="padre25">
+
+		
+		<div class="hijoelemento1">1</div>
+		<div class="hijoelemento1">2</div>
+		<div class="hijoelemento1">3</div>
+		<div class="hijoelemento1">4</div>
+		<div class="hijoelemento1">5</div>
+
+		
+
+	</section>
+
+	  <h2><em>flex-shrink - valor por defecto 0 - Esta propiedad especifica cómo el elemento - flex se reducirá con respecto al resto de los elementos flexibles dentro del mismo contenedor. - </em>flex-shrink: <number>; (Por defecto, todos lo elementos - flex se pueden reducir, pero si le ponemos el valor de 0 no se van a encoger, si no, que van a mantener el tamaño original).</h2>
+
+	<section class="padre25">
+
+		
+		<div class="hijoelemento2">1</div>
+		<div class="hijoelemento2">2</div>
+		<div class="hijoelemento2">3</div>
+		<div class="hijoelemento2">4</div>
+		<div class="hijoelemento2">5</div>
+		
+
+	</section>
+
+
+	</section>
+
+	  <h2><em>flex-basis - valor por defecto 0 - Esta propiedad tiene los mismos valores que las propiedades width y height y especifica el tamaño principal del elemento - flex, distribuyéndose de acuerdo con los factores flex. - </em> flex-basis: auto | <width>; (Aquí especificamos que el quinto elemento - flex dicta el tamaño inicial del elemento.).</h2>
+
+	<section class="padre25">
+
+		
+		<div class="hijoelemento3">1</div>
+		<div class="hijoelemento3">2</div>
+		<div class="hijoelemento3">3</div>
+		<div class="hijoelemento3">4</div>
+		<div class="hijoelemento3">5</div>
+		
+
+	</section>
+
+
+
+
+
+
+
+
+    
+
+
+	
+</body>
+</html>

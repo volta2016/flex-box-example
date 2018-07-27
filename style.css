@@ -1,0 +1,338 @@
+em {
+	color: indigo;
+}
+
+
+.padre {
+    
+   display: flex;
+   border: solid 2px indigo;
+}
+
+.padre2 {
+   display: flex;
+   flex-direction: row-reverse;
+   border: solid 2px indigo;
+}
+
+.padre3 {
+   /* display: flex; el elemento padre lo tiene inline-grid se ajusta a la columna */
+   flex-direction: column;
+   border: solid 2px indigo;
+}
+
+.padre4 {
+   display: flex;
+   flex-direction: column-reverse;
+   border: solid 2px indigo;
+}
+
+
+.padre5 {
+   display: flex;
+   flex-wrap: nowrap;
+   border: solid 2px indigo;
+}
+
+.padre6 {
+   display: flex;
+   flex-wrap: wrap;
+   border: solid 2px indigo;
+}
+
+.padre7 {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   border: solid 2px indigo;
+}
+
+.padre8 {
+   display: flex;
+   flex-flow: column-reverse wrap;
+   border: solid 2px indigo;
+}
+
+
+.padre9 {
+   display: flex;
+   justify-content: flex-start;
+   border: solid 2px indigo;
+}
+
+.padre10 {
+   display: flex;
+   justify-content: flex-end;
+   border: solid 2px indigo;
+}
+
+
+.padre11 {
+   display: flex;
+   justify-content: center;
+   border: solid 2px indigo;
+}
+
+.padre12 {
+   display: flex;
+   justify-content: space-between;
+   border: solid 2px indigo;
+}
+
+.padre13 {
+   display: flex;
+   justify-content: space-around;
+   border: solid 2px indigo;
+}
+
+.padre14 {
+   height: 400px;
+   display: flex;
+   align-items: stretch;
+   border: solid 2px indigo;
+}
+
+.padre15 {
+   height: 400px;
+   display: flex;
+   align-items: flex-start;
+   border: solid 2px indigo;
+}
+
+.padre16 {
+   height: 400px;
+   display: flex;
+   align-items: flex-end;
+   border: solid 2px indigo;
+}
+
+.padre17 {
+   height: 400px;
+   display: flex;
+   align-items: center;
+   border: solid 2px indigo;
+}
+
+.padre18 {
+   height: 400px;
+   display: flex;
+   align-items: baseline;
+   border: solid 2px indigo;
+}
+
+.padre19 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: stretch;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+.padre20 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: flex-start;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+
+.padre21 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: flex-end;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+.padre22 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: center;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+
+.padre23 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: space-between;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+
+.padre24 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: space-around;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+.padre25 {
+   height: 600px;
+   display: flex;
+   /* -ms-box-orient: horizontal; */
+   align-content: center;
+   border: solid 2px indigo;
+   flex-flow: row wrap;
+}
+
+.hijoelemento {
+	order: 2;
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+    margin: 0.2rem;
+
+
+}
+
+.hijoelemento1 {
+	flex-grow: 0;
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+    margin: 0.2rem;
+
+}
+
+.hijoelemento2 {
+	flex-shrink: 0;
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+    margin: 0.2rem;
+
+}
+
+.hijoelemento3 {
+	flex-basis: auto | 300px;
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+    margin: 0.2rem;
+
+}
+
+
+.hijo {
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+    margin: 0.2rem;
+}
+
+.hijo2 {
+	
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 400px;
+	width: 200px;
+	/* height: 200px; */
+    margin: 0.2rem;	
+
+}
+
+.hijo3 {
+	
+	background-color: mediumvioletred;
+	border: solid 2px slateblue;
+	text-align: center;
+	line-height: 120px;
+	width: 200px;
+	height: 120px;
+	/* height: 200px; */
+    margin: 0.2rem;	
+}
+/* 
+flex
+Valor por defecto: 0 1 auto
+
+Con esta propiedad solo es la abreviatura de flex-grow, flex-shrink y flex-basis. Entre otros valores que también se pueden configurar para auto ( 1 1 auto ) y none ( 0 0 auto ).
+
+.hijo {
+	flex: none | auto | [ <flex-grow> <flex-shrink>? || <flex-basis> ];
+}
+align-self
+Valor por defecto: auto
+
+Esta propiedad permite la alineación por defecto (o la especifica por align-items) para ser anulados por elementos - flex individuales.
+
+.hijo {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+El tercer y quinto elemento - flex han anulado la alineación a través de la propiedad align-self.
+
+align-self
+
+Nota: float, clear y vertical-align no tienen efecto en un elemento - flex. */
+
+
+
+/* centrar img v-h {
+	margin: 200px 0;
+}
+
+p - para parrafo - {
+	width: 70%;
+	margin: auto;
+	padding: 10px;
+
+}
+
+p - para parrafo con flex-box - para contenedor padre centrar{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+} oye queremos trabajar con flexbox XD 
+
+
+.contenedor-caja {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.caja para div {
+	width: 70%;
+	background: lightblue;
+	margin:  auto;
+} sacando margin auto aplico contenedor */
+
+
+/* tex-aling: center; centrar texto horizontalmente.
+margin: auto; Centrar elementos bloque con ancho especificos horizontalmente.
+line-height:; centrar una linea de texto verticalmente.
+margin-top: margin-bottom; centrar verticalmente a partir de margin.
+flex-box - centrar horizontal y verticalmnete cualquier elemento. */
+
+
+
